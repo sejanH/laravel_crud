@@ -7,7 +7,7 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## Laravel CRUD
+## Laravel CRUD [Live Preview](http://sejan.000webhostapp.com/blog)
 Requirements
 ============
 * PHP > 7
@@ -21,4 +21,4 @@ Instructions
 * Config your database settings in the .env file
 * Generate the key `php artisan key:generate`
 * Do the migration `php artisan migrate`
-** Finally Run `php artisan serve` then access in the broswer http://localhost:8000/
+* Finally Run `php artisan serve` then access in the broswer http://localhost:8000/
