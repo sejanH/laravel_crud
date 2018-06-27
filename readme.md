@@ -8,6 +8,7 @@
 </p>
 
 ## Laravel CRUD [Live Preview](http://sejan.000webhostapp.com/blog)
+## Video [Preview](https://drive.google.com/open?id=0B4VLr7K2wfEfcUtudHg5WG5BZTg)
 Requirements
 ============
 * PHP > 7
