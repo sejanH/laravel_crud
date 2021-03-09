@@ -63776,7 +63776,7 @@ Vue.compile = compileToFunctions;
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames not based on template
-/******/ 			if ({"resources_js_pages_home_Index_vue":1,"resources_js_pages_post_Index_vue":1,"resources_js_pages_post_Single_vue":1}[chunkId]) return "js/" + chunkId + ".js";
+/******/ 			if ({"resources_js_pages_home_Index_vue":1,"resources_js_pages_post_Index_vue":1,"resources_js_pages_post_Single_vue":1,"resources_js_pages_home_SectionIntro_vue":1}[chunkId]) return "js/" + chunkId + ".js";
 /******/ 			// return url for filenames based on template
 /******/ 			return undefined;
 /******/ 		};

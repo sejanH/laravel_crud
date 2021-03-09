@@ -21,10 +21,17 @@ class CreatePostsTable extends Migration
             $table->string('slug',255);
             $table->longText('body');
             $table->longText('body2')->nullable();
+            $table->string('cover',60)->nullable();
+            $table->string('gallery',60)->nullable();
+            $table->string('thumbnail',60)->nullable();
             $table->bigInteger('created_by')->length(10)->unsigned();
+            $table->boolean('published')->default(0);
+            $table->boolean('featured')->default(0);
+            $table->bigInteger('viewed')->default(0);
             $table->string('meta_tags',255)->nullable();
             $table->string('meta_description',255)->nullable();
             $table->timestamps();
+            //constraints
             $table->foreign('category_id')->references('id')->on('categories');
             $table->foreign('created_by')->references('id')->on('users');
         });

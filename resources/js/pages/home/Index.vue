@@ -1,12 +1,16 @@
 <template>
   <div class="container">
-      Hello
+      <Intro></Intro>
+      <Intro></Intro>
   </div>
 </template>
 
 <script>
 export default {
-    name:"HomePage"
+    name:"HomePage",
+    components:{
+      Intro: ()=>import("./SectionIntro")
+    }
 
 }
 </script>

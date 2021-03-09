@@ -21,6 +21,10 @@ class CreateCategoriesTable extends Migration
             $table->string('slug',255);
             $table->boolean('is_active')->default(true);
             $table->boolean('show_on_menu')->default(true);
+            $table->boolean('featured')->default(0);
+            $table->string('cover',60)->nullable();
+            $table->string('gallery',60)->nullable();
+            $table->string('thumbnail',60)->nullable();
             $table->string('meta_tags',255)->nullable();
             $table->string('meta_description',255)->nullable();
             $table->timestamps();

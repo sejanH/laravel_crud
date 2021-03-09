@@ -17,8 +17,14 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: "HomePage"
+  name: "HomePage",
+  components: {
+    Intro: function Intro() {
+      return __webpack_require__.e(/*! import() */ "resources_js_pages_home_SectionIntro_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./SectionIntro */ "./resources/js/pages/home/SectionIntro.vue"));
+    }
+  }
 });
 
 /***/ }),
@@ -111,7 +117,12 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c("div", { staticClass: "container" }, [_vm._v("\n    Hello\n")])
+  return _c(
+    "div",
+    { staticClass: "container" },
+    [_c("Intro"), _vm._v(" "), _c("Intro")],
+    1
+  )
 }
 var staticRenderFns = []
 render._withStripped = true

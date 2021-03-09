@@ -16,7 +16,7 @@ class CreateMediaTable extends Migration
         Schema::create('media', function (Blueprint $table) {
             $table->id();
             $table->string("filename",255);
-            $table->string("base_path",128)->default("/public/storage/");
+            $table->string("base_path",128)->default("/public/media/dummy.jpeg");
             $table->string("file_size",56)->nullable();
             $table->string("file_extension",24)->default("jpeg");
             $table->timestamps();
