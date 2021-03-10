@@ -1,5 +1,5 @@
 <template>
-  <section class="intro_section no-padding">
+  <section class="intro_section">
     <div class="section_single">
       <div class="section_body">
         <div class="thumb">
@@ -8,16 +8,16 @@
         <div class="description">
           <div class="content">
             <span class="category">
-              <a href="blog-category-01.html" title="">Gardening</a>
+              <router-link to="/category/blog-category-01" title=""
+                >Gardening</router-link
+              >
             </span>
             <h4 class="title">
-              <a href="garden-single.html" title=""
-                >How to choose high quality soil for your gardens</a
+              <router-link to="/post/slug" title=""
+                >How to choose high quality soil for your gardens</router-link
               >
             </h4>
-            <small
-              >21 July, 2017</small
-            >
+            <small>21 July, 2017</small>
             <small><a href="#" title="">by Amanda</a></small>
           </div>
         </div>
@@ -31,16 +31,16 @@
         <div class="description">
           <div class="content">
             <span class="category">
-              <a href="blog-category-01.html" title="">Gardening</a>
+              <router-link to="/category/blog-category-01" title=""
+                >Gardening</router-link
+              >
             </span>
             <h4 class="title">
-              <a href="garden-single.html" title=""
-                >How to choose high quality soil for your gardens</a
+              <router-link to="/post/slug" title=""
+                >How to choose high quality soil for your gardens</router-link
               >
             </h4>
-            <small
-              >21 July, 2017</small
-            >
+            <small>21 July, 2017</small>
             <small><a href="#" title="">by Amanda</a></small>
           </div>
         </div>
@@ -54,16 +54,16 @@
         <div class="description">
           <div class="content">
             <span class="category">
-              <a href="blog-category-01.html" title="">Gardening</a>
+              <router-link to="/category/blog-category-01" title=""
+                >Gardening</router-link
+              >
             </span>
             <h4 class="title">
-              <a href="garden-single.html" title=""
-                >How to choose high quality soil for your gardens</a
+              <router-link to="/post/slug" title=""
+                >How to choose high quality soil for your gardens</router-link
               >
             </h4>
-            <small
-              >21 July, 2017</small
-            >
+            <small>21 July, 2017</small>
             <small><a href="#" title="">by Amanda</a></small>
           </div>
         </div>
@@ -77,16 +77,16 @@
         <div class="description">
           <div class="content">
             <span class="category">
-              <a href="blog-category-01.html" title="">Gardening</a>
+              <router-link to="/category/blog-category-01" title=""
+                >Gardening</router-link
+              >
             </span>
             <h4 class="title">
-              <a href="garden-single.html" title=""
-                >How to choose high quality soil for your gardens</a
+              <router-link to="/post/slug" title=""
+                >How to choose high quality soil for your gardens</router-link
               >
             </h4>
-            <small
-              >21 July, 2017</small
-            >
+            <small>21 July, 2017</small>
             <small><a href="#" title="">by Amanda</a></small>
           </div>
         </div>
@@ -100,16 +100,16 @@
         <div class="description">
           <div class="content">
             <span class="category">
-              <a href="blog-category-01.html" title="">Gardening</a>
+              <router-link to="/category/blog-category-01" title=""
+                >Gardening</router-link
+              >
             </span>
             <h4 class="title">
-              <a href="garden-single.html" title=""
-                >How to choose high quality soil for your gardens</a
+              <router-link to="/post/slug" title=""
+                >How to choose high quality soil for your gardens</router-link
               >
             </h4>
-            <small
-              >21 July, 2017</small
-            >
+            <small>21 July, 2017</small>
             <small><a href="#" title="">by Amanda</a></small>
           </div>
         </div>
@@ -123,16 +123,16 @@
         <div class="description">
           <div class="content">
             <span class="category">
-              <a href="blog-category-01.html" title="">Gardening</a>
+              <router-link to="/category/blog-category-01" title=""
+                >Gardening</router-link
+              >
             </span>
             <h4 class="title">
-              <a href="garden-single.html" title=""
-                >How to choose high quality soil for your gardens</a
+              <router-link to="/post/slug" title=""
+                >How to choose high quality soil for your gardens</router-link
               >
             </h4>
-            <small
-              >21 July, 2017</small
-            >
+            <small>21 July, 2017</small>
             <small><a href="#" title="">by Amanda</a></small>
           </div>
         </div>
@@ -146,16 +146,16 @@
         <div class="description">
           <div class="content">
             <span class="category">
-              <a href="blog-category-01.html" title="">Gardening</a>
+              <router-link to="/category/blog-category-01" title=""
+                >Gardening</router-link
+              >
             </span>
             <h4 class="title">
-              <a href="garden-single.html" title=""
-                >How to choose high quality soil for your gardens</a
+              <router-link to="/post/slug" title=""
+                >How to choose high quality soil for your gardens</router-link
               >
             </h4>
-            <small
-              >21 July, 2017</small
-            >
+            <small>21 July, 2017</small>
             <small><a href="#" title="">by Amanda</a></small>
           </div>
         </div>
@@ -169,16 +169,16 @@
         <div class="description">
           <div class="content">
             <span class="category">
-              <a href="blog-category-01.html" title="">Gardening</a>
+              <router-link to="/category/blog-category-01" title=""
+                >Gardening</router-link
+              >
             </span>
             <h4 class="title">
-              <a href="garden-single.html" title=""
-                >How to choose high quality soil for your gardens</a
+              <router-link to="/post/slug" title=""
+                >How to choose high quality soil for your gardens</router-link
               >
             </h4>
-            <small
-              >21 July, 2017</small
-            >
+            <small>21 July, 2017</small>
             <small><a href="#" title="">by Amanda</a></small>
           </div>
         </div>
@@ -189,8 +189,7 @@
 
 <script>
 export default {
-    name:'SectionIntro',
-
+  name: "SectionIntro",
 };
 </script>
 

@@ -6,8 +6,10 @@
 
 require('./bootstrap');
 import Router from 'vue-router';
-import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
-
+import titleMixin from './titleMixin';
+import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
+import VueCarousel from 'vue-carousel';
+import "../../public/css/app.css";
 window.Vue = require('vue').default;
 window.Vue.use(Router);
 
@@ -15,6 +17,10 @@ window.Vue.use(Router);
 Vue.use(BootstrapVue);
 // Optionally install the BootstrapVue icon components plugin
 Vue.use(IconsPlugin);
+// vue carousel by ssense
+Vue.use(VueCarousel);
+// mixin to update title accordingly
+Vue.mixin(titleMixin)
 
 
 
@@ -30,6 +36,9 @@ const router = new Router({
             path: '/post',
             name: 'SinglePostWrapper',
             component:() => import("./pages/post/Index"),
+            meta:{
+                title:"Post"
+            },
             children: [
                 {
                     path: ':slug',
@@ -37,6 +46,20 @@ const router = new Router({
                     component: () => import("./pages/post/Single"),
                 }
             ]
+        },
+        {
+            path:'/category/:slug',
+            name:'CategoryPage',
+            component:() => import("./pages/category/Index"),
+            meta:{
+                title:"Category"
+            }
+        },
+        {
+            path:"*" || "/404",
+            name: 'NotFound',
+            component: () => import("./pages/404")
+            
         }
     ]
 });

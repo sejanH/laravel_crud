@@ -9,6 +9,7 @@ class GlobalController extends Controller
 
     function index(Request $request, $path = null,$path2 = null)
     {
+        // dd($path);
         switch ($path) {
             case null:
                 return view('index');
@@ -16,8 +17,8 @@ class GlobalController extends Controller
             case "home":
                 return redirect('/');
                 break;
-            case "/":
-                return redirect('/');
+            case "category":
+                return view('index');
                 break;
             case "post": 
                 return view("index");

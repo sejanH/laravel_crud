@@ -201,7 +201,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
-  name: 'SectionIntro'
+  name: "SectionIntro"
 });
 
 /***/ }),
@@ -294,309 +294,463 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _vm._m(0)
+  return _c("section", { staticClass: "intro_section" }, [
+    _c("div", { staticClass: "section_single" }, [
+      _c("div", { staticClass: "section_body" }, [
+        _vm._m(0),
+        _vm._v(" "),
+        _c("div", { staticClass: "description" }, [
+          _c("div", { staticClass: "content" }, [
+            _c(
+              "span",
+              { staticClass: "category" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "/category/blog-category-01", title: "" } },
+                  [_vm._v("Gardening")]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "h4",
+              { staticClass: "title" },
+              [
+                _c("router-link", { attrs: { to: "/post/slug", title: "" } }, [
+                  _vm._v("How to choose high quality soil for your gardens")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("small", [_vm._v("21 July, 2017")]),
+            _vm._v(" "),
+            _vm._m(1)
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "section_single" }, [
+      _c("div", { staticClass: "section_body" }, [
+        _vm._m(2),
+        _vm._v(" "),
+        _c("div", { staticClass: "description" }, [
+          _c("div", { staticClass: "content" }, [
+            _c(
+              "span",
+              { staticClass: "category" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "/category/blog-category-01", title: "" } },
+                  [_vm._v("Gardening")]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "h4",
+              { staticClass: "title" },
+              [
+                _c("router-link", { attrs: { to: "/post/slug", title: "" } }, [
+                  _vm._v("How to choose high quality soil for your gardens")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("small", [_vm._v("21 July, 2017")]),
+            _vm._v(" "),
+            _vm._m(3)
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "section_single" }, [
+      _c("div", { staticClass: "section_body" }, [
+        _vm._m(4),
+        _vm._v(" "),
+        _c("div", { staticClass: "description" }, [
+          _c("div", { staticClass: "content" }, [
+            _c(
+              "span",
+              { staticClass: "category" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "/category/blog-category-01", title: "" } },
+                  [_vm._v("Gardening")]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "h4",
+              { staticClass: "title" },
+              [
+                _c("router-link", { attrs: { to: "/post/slug", title: "" } }, [
+                  _vm._v("How to choose high quality soil for your gardens")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("small", [_vm._v("21 July, 2017")]),
+            _vm._v(" "),
+            _vm._m(5)
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "section_single" }, [
+      _c("div", { staticClass: "section_body" }, [
+        _vm._m(6),
+        _vm._v(" "),
+        _c("div", { staticClass: "description" }, [
+          _c("div", { staticClass: "content" }, [
+            _c(
+              "span",
+              { staticClass: "category" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "/category/blog-category-01", title: "" } },
+                  [_vm._v("Gardening")]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "h4",
+              { staticClass: "title" },
+              [
+                _c("router-link", { attrs: { to: "/post/slug", title: "" } }, [
+                  _vm._v("How to choose high quality soil for your gardens")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("small", [_vm._v("21 July, 2017")]),
+            _vm._v(" "),
+            _vm._m(7)
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "section_single" }, [
+      _c("div", { staticClass: "section_body" }, [
+        _vm._m(8),
+        _vm._v(" "),
+        _c("div", { staticClass: "description" }, [
+          _c("div", { staticClass: "content" }, [
+            _c(
+              "span",
+              { staticClass: "category" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "/category/blog-category-01", title: "" } },
+                  [_vm._v("Gardening")]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "h4",
+              { staticClass: "title" },
+              [
+                _c("router-link", { attrs: { to: "/post/slug", title: "" } }, [
+                  _vm._v("How to choose high quality soil for your gardens")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("small", [_vm._v("21 July, 2017")]),
+            _vm._v(" "),
+            _vm._m(9)
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "section_single" }, [
+      _c("div", { staticClass: "section_body" }, [
+        _vm._m(10),
+        _vm._v(" "),
+        _c("div", { staticClass: "description" }, [
+          _c("div", { staticClass: "content" }, [
+            _c(
+              "span",
+              { staticClass: "category" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "/category/blog-category-01", title: "" } },
+                  [_vm._v("Gardening")]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "h4",
+              { staticClass: "title" },
+              [
+                _c("router-link", { attrs: { to: "/post/slug", title: "" } }, [
+                  _vm._v("How to choose high quality soil for your gardens")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("small", [_vm._v("21 July, 2017")]),
+            _vm._v(" "),
+            _vm._m(11)
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "section_single" }, [
+      _c("div", { staticClass: "section_body" }, [
+        _vm._m(12),
+        _vm._v(" "),
+        _c("div", { staticClass: "description" }, [
+          _c("div", { staticClass: "content" }, [
+            _c(
+              "span",
+              { staticClass: "category" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "/category/blog-category-01", title: "" } },
+                  [_vm._v("Gardening")]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "h4",
+              { staticClass: "title" },
+              [
+                _c("router-link", { attrs: { to: "/post/slug", title: "" } }, [
+                  _vm._v("How to choose high quality soil for your gardens")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("small", [_vm._v("21 July, 2017")]),
+            _vm._v(" "),
+            _vm._m(13)
+          ])
+        ])
+      ])
+    ]),
+    _vm._v(" "),
+    _c("div", { staticClass: "section_single" }, [
+      _c("div", { staticClass: "section_body" }, [
+        _vm._m(14),
+        _vm._v(" "),
+        _c("div", { staticClass: "description" }, [
+          _c("div", { staticClass: "content" }, [
+            _c(
+              "span",
+              { staticClass: "category" },
+              [
+                _c(
+                  "router-link",
+                  { attrs: { to: "/category/blog-category-01", title: "" } },
+                  [_vm._v("Gardening")]
+                )
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c(
+              "h4",
+              { staticClass: "title" },
+              [
+                _c("router-link", { attrs: { to: "/post/slug", title: "" } }, [
+                  _vm._v("How to choose high quality soil for your gardens")
+                ])
+              ],
+              1
+            ),
+            _vm._v(" "),
+            _c("small", [_vm._v("21 July, 2017")]),
+            _vm._v(" "),
+            _vm._m(15)
+          ])
+        ])
+      ])
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("section", { staticClass: "intro_section no-padding" }, [
-      _c("div", { staticClass: "section_single" }, [
-        _c("div", { staticClass: "section_body" }, [
-          _c("div", { staticClass: "thumb" }, [
-            _c("img", {
-              staticClass: "img-fluid",
-              attrs: { src: "/media/dummy.jpeg", alt: "" }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "description" }, [
-            _c("div", { staticClass: "content" }, [
-              _c("span", { staticClass: "category" }, [
-                _c(
-                  "a",
-                  { attrs: { href: "blog-category-01.html", title: "" } },
-                  [_vm._v("Gardening")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("h4", { staticClass: "title" }, [
-                _c("a", { attrs: { href: "garden-single.html", title: "" } }, [
-                  _vm._v("How to choose high quality soil for your gardens")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("small", [_vm._v("21 July, 2017")]),
-              _vm._v(" "),
-              _c("small", [
-                _c("a", { attrs: { href: "#", title: "" } }, [
-                  _vm._v("by Amanda")
-                ])
-              ])
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "section_single" }, [
-        _c("div", { staticClass: "section_body" }, [
-          _c("div", { staticClass: "thumb" }, [
-            _c("img", {
-              staticClass: "img-fluid",
-              attrs: { src: "/media/dummy.jpeg", alt: "" }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "description" }, [
-            _c("div", { staticClass: "content" }, [
-              _c("span", { staticClass: "category" }, [
-                _c(
-                  "a",
-                  { attrs: { href: "blog-category-01.html", title: "" } },
-                  [_vm._v("Gardening")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("h4", { staticClass: "title" }, [
-                _c("a", { attrs: { href: "garden-single.html", title: "" } }, [
-                  _vm._v("How to choose high quality soil for your gardens")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("small", [_vm._v("21 July, 2017")]),
-              _vm._v(" "),
-              _c("small", [
-                _c("a", { attrs: { href: "#", title: "" } }, [
-                  _vm._v("by Amanda")
-                ])
-              ])
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "section_single" }, [
-        _c("div", { staticClass: "section_body" }, [
-          _c("div", { staticClass: "thumb" }, [
-            _c("img", {
-              staticClass: "img-fluid",
-              attrs: { src: "/media/dummy.jpeg", alt: "" }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "description" }, [
-            _c("div", { staticClass: "content" }, [
-              _c("span", { staticClass: "category" }, [
-                _c(
-                  "a",
-                  { attrs: { href: "blog-category-01.html", title: "" } },
-                  [_vm._v("Gardening")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("h4", { staticClass: "title" }, [
-                _c("a", { attrs: { href: "garden-single.html", title: "" } }, [
-                  _vm._v("How to choose high quality soil for your gardens")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("small", [_vm._v("21 July, 2017")]),
-              _vm._v(" "),
-              _c("small", [
-                _c("a", { attrs: { href: "#", title: "" } }, [
-                  _vm._v("by Amanda")
-                ])
-              ])
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "section_single" }, [
-        _c("div", { staticClass: "section_body" }, [
-          _c("div", { staticClass: "thumb" }, [
-            _c("img", {
-              staticClass: "img-fluid",
-              attrs: { src: "/media/dummy.jpeg", alt: "" }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "description" }, [
-            _c("div", { staticClass: "content" }, [
-              _c("span", { staticClass: "category" }, [
-                _c(
-                  "a",
-                  { attrs: { href: "blog-category-01.html", title: "" } },
-                  [_vm._v("Gardening")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("h4", { staticClass: "title" }, [
-                _c("a", { attrs: { href: "garden-single.html", title: "" } }, [
-                  _vm._v("How to choose high quality soil for your gardens")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("small", [_vm._v("21 July, 2017")]),
-              _vm._v(" "),
-              _c("small", [
-                _c("a", { attrs: { href: "#", title: "" } }, [
-                  _vm._v("by Amanda")
-                ])
-              ])
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "section_single" }, [
-        _c("div", { staticClass: "section_body" }, [
-          _c("div", { staticClass: "thumb" }, [
-            _c("img", {
-              staticClass: "img-fluid",
-              attrs: { src: "/media/dummy.jpeg", alt: "" }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "description" }, [
-            _c("div", { staticClass: "content" }, [
-              _c("span", { staticClass: "category" }, [
-                _c(
-                  "a",
-                  { attrs: { href: "blog-category-01.html", title: "" } },
-                  [_vm._v("Gardening")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("h4", { staticClass: "title" }, [
-                _c("a", { attrs: { href: "garden-single.html", title: "" } }, [
-                  _vm._v("How to choose high quality soil for your gardens")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("small", [_vm._v("21 July, 2017")]),
-              _vm._v(" "),
-              _c("small", [
-                _c("a", { attrs: { href: "#", title: "" } }, [
-                  _vm._v("by Amanda")
-                ])
-              ])
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "section_single" }, [
-        _c("div", { staticClass: "section_body" }, [
-          _c("div", { staticClass: "thumb" }, [
-            _c("img", {
-              staticClass: "img-fluid",
-              attrs: { src: "/media/dummy.jpeg", alt: "" }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "description" }, [
-            _c("div", { staticClass: "content" }, [
-              _c("span", { staticClass: "category" }, [
-                _c(
-                  "a",
-                  { attrs: { href: "blog-category-01.html", title: "" } },
-                  [_vm._v("Gardening")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("h4", { staticClass: "title" }, [
-                _c("a", { attrs: { href: "garden-single.html", title: "" } }, [
-                  _vm._v("How to choose high quality soil for your gardens")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("small", [_vm._v("21 July, 2017")]),
-              _vm._v(" "),
-              _c("small", [
-                _c("a", { attrs: { href: "#", title: "" } }, [
-                  _vm._v("by Amanda")
-                ])
-              ])
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "section_single" }, [
-        _c("div", { staticClass: "section_body" }, [
-          _c("div", { staticClass: "thumb" }, [
-            _c("img", {
-              staticClass: "img-fluid",
-              attrs: { src: "/media/dummy.jpeg", alt: "" }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "description" }, [
-            _c("div", { staticClass: "content" }, [
-              _c("span", { staticClass: "category" }, [
-                _c(
-                  "a",
-                  { attrs: { href: "blog-category-01.html", title: "" } },
-                  [_vm._v("Gardening")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("h4", { staticClass: "title" }, [
-                _c("a", { attrs: { href: "garden-single.html", title: "" } }, [
-                  _vm._v("How to choose high quality soil for your gardens")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("small", [_vm._v("21 July, 2017")]),
-              _vm._v(" "),
-              _c("small", [
-                _c("a", { attrs: { href: "#", title: "" } }, [
-                  _vm._v("by Amanda")
-                ])
-              ])
-            ])
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("div", { staticClass: "section_single" }, [
-        _c("div", { staticClass: "section_body" }, [
-          _c("div", { staticClass: "thumb" }, [
-            _c("img", {
-              staticClass: "img-fluid",
-              attrs: { src: "/media/dummy.jpeg", alt: "" }
-            })
-          ]),
-          _vm._v(" "),
-          _c("div", { staticClass: "description" }, [
-            _c("div", { staticClass: "content" }, [
-              _c("span", { staticClass: "category" }, [
-                _c(
-                  "a",
-                  { attrs: { href: "blog-category-01.html", title: "" } },
-                  [_vm._v("Gardening")]
-                )
-              ]),
-              _vm._v(" "),
-              _c("h4", { staticClass: "title" }, [
-                _c("a", { attrs: { href: "garden-single.html", title: "" } }, [
-                  _vm._v("How to choose high quality soil for your gardens")
-                ])
-              ]),
-              _vm._v(" "),
-              _c("small", [_vm._v("21 July, 2017")]),
-              _vm._v(" "),
-              _c("small", [
-                _c("a", { attrs: { href: "#", title: "" } }, [
-                  _vm._v("by Amanda")
-                ])
-              ])
-            ])
-          ])
-        ])
-      ])
+    return _c("div", { staticClass: "thumb" }, [
+      _c("img", {
+        staticClass: "img-fluid",
+        attrs: { src: "/media/dummy.jpeg", alt: "" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("small", [
+      _c("a", { attrs: { href: "#", title: "" } }, [_vm._v("by Amanda")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "thumb" }, [
+      _c("img", {
+        staticClass: "img-fluid",
+        attrs: { src: "/media/dummy.jpeg", alt: "" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("small", [
+      _c("a", { attrs: { href: "#", title: "" } }, [_vm._v("by Amanda")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "thumb" }, [
+      _c("img", {
+        staticClass: "img-fluid",
+        attrs: { src: "/media/dummy.jpeg", alt: "" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("small", [
+      _c("a", { attrs: { href: "#", title: "" } }, [_vm._v("by Amanda")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "thumb" }, [
+      _c("img", {
+        staticClass: "img-fluid",
+        attrs: { src: "/media/dummy.jpeg", alt: "" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("small", [
+      _c("a", { attrs: { href: "#", title: "" } }, [_vm._v("by Amanda")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "thumb" }, [
+      _c("img", {
+        staticClass: "img-fluid",
+        attrs: { src: "/media/dummy.jpeg", alt: "" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("small", [
+      _c("a", { attrs: { href: "#", title: "" } }, [_vm._v("by Amanda")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "thumb" }, [
+      _c("img", {
+        staticClass: "img-fluid",
+        attrs: { src: "/media/dummy.jpeg", alt: "" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("small", [
+      _c("a", { attrs: { href: "#", title: "" } }, [_vm._v("by Amanda")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "thumb" }, [
+      _c("img", {
+        staticClass: "img-fluid",
+        attrs: { src: "/media/dummy.jpeg", alt: "" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("small", [
+      _c("a", { attrs: { href: "#", title: "" } }, [_vm._v("by Amanda")])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "thumb" }, [
+      _c("img", {
+        staticClass: "img-fluid",
+        attrs: { src: "/media/dummy.jpeg", alt: "" }
+      })
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("small", [
+      _c("a", { attrs: { href: "#", title: "" } }, [_vm._v("by Amanda")])
     ])
   }
 ]

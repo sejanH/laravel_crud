@@ -18,11 +18,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "HomePage",
+  title: function title() {
+    return "Blog";
+  },
   components: {
     Intro: function Intro() {
       return __webpack_require__.e(/*! import() */ "resources_js_pages_home_SectionIntro_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./SectionIntro */ "./resources/js/pages/home/SectionIntro.vue"));
+    },
+    CategorySlider: function CategorySlider() {
+      return __webpack_require__.e(/*! import() */ "resources_js_pages_home_CategorySlider_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./CategorySlider */ "./resources/js/pages/home/CategorySlider.vue"));
     }
   }
 });
@@ -120,7 +127,7 @@ var render = function() {
   return _c(
     "div",
     { staticClass: "container" },
-    [_c("Intro"), _vm._v(" "), _c("Intro")],
+    [_c("Intro"), _vm._v(" "), _c("CategorySlider"), _vm._v(" "), _c("Intro")],
     1
   )
 }

@@ -28,6 +28,7 @@
     },
     "dependencies": {
         "bootstrap-vue": "^2.21.2",
+        "vue-carousel": "^0.18.0",
         "vue-router": "^3.5.1",
         "vuex": "^3.6.2"
     }

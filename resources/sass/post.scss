@@ -1,0 +1,13 @@
+// Variables
+@import 'variables';
+@import 'mixins';
+@import "global";
+.heading{
+    a{
+      color: $green;
+      text-decoration: none;
+      &:hover{
+        color: $pink;
+      }
+    }
+  }
