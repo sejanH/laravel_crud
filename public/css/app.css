@@ -1,4 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:ital,wght@0,400;
+
+0,600;1,400;1,600&family=Poppins:ital,wght@0,100;1,100&family=Raleway:wght@500&display=swap);
 /*!
  * Bootstrap v4.6.0 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -7947,7 +7949,6 @@ button.bg-dark:focus {
 }
 
 .position-sticky {
-  position: -webkit-sticky !important;
   position: sticky !important;
 }
 
@@ -7967,9 +7968,8 @@ button.bg-dark:focus {
   z-index: 1030;
 }
 
-@supports ((position: -webkit-sticky) or (position: sticky)) {
+@supports (position: sticky) {
   .sticky-top {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 1020;
@@ -12435,9 +12435,8 @@ input[type=color].form-control:disabled {
   }
 }
 
-@supports ((position: -webkit-sticky) or (position: sticky)) {
+@supports (position: sticky) {
   .b-table-sticky-header > .table.b-table > thead > tr > th {
-    position: -webkit-sticky;
     position: sticky;
     top: 0;
     z-index: 2;
@@ -12452,7 +12451,6 @@ input[type=color].form-control:disabled {
 [class*=table-responsive-] > .table.b-table > thead > tr > .b-table-sticky-column,
 [class*=table-responsive-] > .table.b-table > tbody > tr > .b-table-sticky-column,
 [class*=table-responsive-] > .table.b-table > tfoot > tr > .b-table-sticky-column {
-    position: -webkit-sticky;
     position: sticky;
     left: 0;
   }
@@ -13653,6 +13651,139 @@ a {
 
 .navbar.bg-white {
   border-bottom: 1px solid lightgray;
+}
+
+.navbar .dropdown-menu {
+  padding: 0;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.navbar .dropdown-menu a.dropdown-item {
+  padding: 0.2rem 1.2rem 0.2rem 0rem;
+}
+
+.navbar .dropdown-menu a.dropdown-item:active {
+  background-color: #00a86b;
+}
+
+.navbar .dropdown-menu a.dropdown-item.router-link-exact-active {
+  background-color: beige;
+}
+
+.navbar .ml-auto .dropdown-menu {
+  padding: 0;
+}
+
+.navbar .ml-auto .dropdown-menu a.dropdown-item {
+  padding: 0.2rem 1.2rem;
+}
+
+.navbar .show {
+  display: unset;
+}
+
+.navbar .hide {
+  display: none;
+}
+
+@media (min-width: 992px) {
+  .dropdown-menu.show {
+    border-top: none;
+  }
+
+  .dropdown-menu.show .nav-item {
+    position: relative;
+  }
+
+  .dropdown-menu.show .nav-item .nav-link {
+    color: black;
+    font-size: 15px;
+    font-family: "Crimson Text";
+    background-color: #fdffef;
+    min-width: 200px;
+    padding: 0.4rem;
+  }
+
+  .dropdown-menu.show .nav-item .nav-link svg {
+    position: absolute;
+    right: 0.4rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .dropdown-menu.show .nav-item .nav-link:hover,
+  .dropdown-menu.show .nav-item .nav-link:focus {
+    background-color: #f3f9c6e0;
+  }
+
+  .dropdown-menu.show .nav-item .nav-link:hover .sub,
+  .dropdown-menu.show .nav-item .nav-link:focus .sub {
+    z-index: 1000;
+    display: block;
+    visibility: visible;
+    position: absolute;
+    left: 100%;
+    top: 0;
+  }
+
+  .dropdown-menu.show li.dropdown-li {
+    position: relative;
+  }
+
+  .dropdown-menu.show li.dropdown-li a.dropdown-item {
+    color: black;
+    font-size: 15px;
+    font-family: "Crimson Text";
+    background-color: #fdffef;
+    min-width: 200px;
+    padding: 0.4rem;
+  }
+
+  .dropdown-menu.show li.dropdown-li a.dropdown-item svg {
+    position: absolute;
+    right: 0.4rem;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+  .dropdown-menu.show li.dropdown-li a.dropdown-item:hover,
+  .dropdown-menu.show li.dropdown-li a.dropdown-item:focus {
+    background-color: #f3f9c6e0;
+  }
+
+  .dropdown-menu.show .sub {
+    transition: 0.4s linear all;
+    background-color: #fdffef;
+    display: none;
+    visibility: hidden;
+    outline: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+  }
+
+  .dropdown-menu.show .sub .nav-link:hover,
+  .dropdown-menu.show .sub .nav-link:focus {
+    background-color: #f3f9c6e0;
+  }
+
+  .dropdown-menu.show .sub .nav-link:hover .last,
+  .dropdown-menu.show .sub .nav-link:focus .last {
+    z-index: 1000;
+    display: block;
+    visibility: visible;
+    position: absolute;
+    left: 100%;
+    top: 0;
+  }
+
+  .dropdown-menu.show .sub .last {
+    background-color: #fdffef;
+    display: none;
+    visibility: hidden;
+    outline: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    transition: 0.4s linear all;
+  }
 }
 
 .intro_section {

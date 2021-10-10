@@ -9,7 +9,12 @@ import Router from 'vue-router';
 import titleMixin from './titleMixin';
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue';
 import VueCarousel from 'vue-carousel';
+// Import component
+import Loading from 'vue-loading-overlay';
+// Import stylesheet
+import 'vue-loading-overlay/dist/vue-loading.css';
 import "../../public/css/app.css";
+import Vue from 'vue';
 window.Vue = require('vue').default;
 window.Vue.use(Router);
 
@@ -19,6 +24,8 @@ Vue.use(BootstrapVue);
 Vue.use(IconsPlugin);
 // vue carousel by ssense
 Vue.use(VueCarousel);
+//loader
+Vue.component("Loading",Loading);
 // mixin to update title accordingly
 Vue.mixin(titleMixin)
 
@@ -33,48 +40,51 @@ const router = new Router({
             component: () => import("./pages/home/Index")
         },
         {
-            path: '/post',
-            name: 'SinglePostWrapper',
-            component:() => import("./pages/post/Index"),
-            meta:{
-                title:"Post"
-            },
-            children: [
-                {
-                    path: ':slug',
-                    name: 'SinglePost',
-                    component: () => import("./pages/post/Single"),
-                }
-            ]
+            path:'/new',
+            name:'CreatePost',
+            component: () => import("./pages/post/Create")
         },
         {
-            path:'/category/:slug',
-            name:'CategoryPage',
-            component:() => import("./pages/category/Index"),
-            meta:{
-                title:"Category"
+            path: '/post/:slug',
+            name: 'SinglePostWrapper',
+            component: () => import("./pages/post/Index"),
+            meta: {
+                title: "Post"
+            },
+            // children: [
+            //     {
+            //         path: ':slug',
+            //         name: 'SinglePost',
+            //         component: () => import("./pages/post/Single"),
+            //     }
+            // ]
+        },
+        {
+            path: '/category/:slug',
+            name: 'CategoryPage',
+            component: () => import("./pages/category/Index"),
+            meta: {
+                title: "Category"
             }
         },
         {
-            path:"*" || "/404",
+            path: "*" || "/404",
             name: 'NotFound',
             component: () => import("./pages/404")
-            
+
+        },
+        {
+            path: '/login',
+            name: 'Login',
+            // component: () => import("./pages/auth/Login")
+        },
+        {
+            path: '/register',
+            name: 'Regsiter',
+            // component: () => import("./pages/auth/Login")
         }
     ]
 });
-/**
- * The following block of code may be used to automatically register your
- * Vue components. It will recursively scan this directory for the Vue
- * components and automatically register them with their "basename".
- *
- * Eg. ./components/ExampleComponent.vue -> <example-component></example-component>
- */
-
-// const files = require.context('./', true, /\.vue$/i)
-// files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
-
-// Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
 Vue.component("header-menu", require("./components/Header").default);
 /**
@@ -85,5 +95,10 @@ Vue.component("header-menu", require("./components/Header").default);
 
 const app = new Vue({
     el: '#app',
-    router
+    router,
+    data() {
+        return {
+            state: __STATE
+        }
+    }
 });

@@ -17,5 +17,7 @@ use Illuminate\Support\Facades\Route;
 Auth::routes();
 Route::get('/{path?}/{path2?}', "GlobalController@index");
 
+// category routes
+// Route::get('/category/{category:slug}','CategoryController@show');
 Route::post('/category/create','CategoryController@store');
 // Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

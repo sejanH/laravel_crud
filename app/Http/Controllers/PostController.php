@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Resources\PostResource;
 use App\Models\Post;
 use Illuminate\Http\Request;
 
@@ -44,9 +45,13 @@ class PostController extends Controller
      * @param  \App\Models\Post  $post
      * @return \Illuminate\Http\Response
      */
-    public function show(Post $post)
+    public function show($slug)
     {
-        //
+        $post = Post::where('slug',$slug)->first();
+        if(is_null($post)){
+            return response()->json("NOTFOUND",404);
+        }
+        return response()->json(new PostResource($post),200);
     }
 
     /**

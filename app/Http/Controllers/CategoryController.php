@@ -53,7 +53,10 @@ class CategoryController extends Controller
      */
     public function show(Category $category)
     {
-        //
+        if(!$category){
+            return response()->json("NOTFOUND",404);
+        }
+        return response()->json($category);
     }
 
     /**

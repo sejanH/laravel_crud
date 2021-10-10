@@ -18,4 +18,9 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
+Route::get('/category/{category:slug}','CategoryController@show');
 Route::post('/category/create','CategoryController@store');
+
+Route::prefix('post')->group(function(){
+    Route::get('{slug}','PostController@show');
+});

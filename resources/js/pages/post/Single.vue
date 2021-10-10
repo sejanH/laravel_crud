@@ -37,24 +37,3 @@ export default {
   name: "SinglePost",
 };
 </script>
-
-<style lang="scss">
-.postBody{
-min-height: 500vh;
-}
-.cover {
-  img {
-    max-width: 100%;
-  }
-}
-.sideBar{
-  min-height: 90vh;
-  overflow-y: auto;
-  background-color: aliceblue;
-  position: relative;
-  .fixed{
-
-  position: fixed;
-  }
-}
-</style>

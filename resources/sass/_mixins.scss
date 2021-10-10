@@ -68,6 +68,11 @@
             @content ;
         }
     }
+    @else if $point==desktop {
+        @media (min-width: 992px) {
+            @content ;
+        }
+    }
 
     @else if $point==minitab {
         @media (max-width: 768px) {

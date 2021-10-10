@@ -10,7 +10,8 @@ class Post extends Model
 {
     use HasFactory;
 
-    protected $fillable = ['category_id','category_parent_ids','title','slug','body','body2','created_by','meta_tags','meta_description'];
+    protected $with = ['category','creator'];
+    protected $fillable = ['category_id','category_parent_ids','title','slug','body','body2','cover','gallery','thumbnail','published','viewed','created_by','meta_tags','meta_description'];
 
     public function getCategoryParentIdsAttribute($value){
         return unserialize($value);
@@ -20,5 +21,12 @@ class Post extends Model
     }
     public function setSlugAttribute($value){
         $this->attributes['slug'] = Str::of($value)->slug('-').'-'.now();
+    }
+
+    public function category(){
+        return $this->belongsTo(Category::class);
+    }
+    public function creator(){
+        return $this->belongsTo(User::class,'created_by','id');
     }
 }

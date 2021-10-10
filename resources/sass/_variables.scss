@@ -1,8 +1,13 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Poppins:ital,wght@0,100;1,100&family=Raleway:wght@500&display=swap");
+
 // Body
 $body-bg: #f8fafc;
 
 // Typography
-$font-family-sans-serif: 'Nunito', sans-serif;
+$crimson: 'Crimson Text';
+$poppins: 'Poppins';
+$raleway: 'Raleway';
 $font-size-base: 0.9rem;
 $line-height-base: 1.6;
 
@@ -17,3 +22,5 @@ $yellow: #ffed4a;
 $green: #00a86b;
 $teal: #4dc0b5;
 $cyan: #6cb2eb;
+
+$hover: #f3f9c6e0;

@@ -19,10 +19,19 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   name: "HomePage",
   title: function title() {
     return "Blog";
+  },
+  data: function data() {
+    return {// isActive: true,
+    };
   },
   components: {
     Intro: function Intro() {
@@ -30,6 +39,11 @@ __webpack_require__.r(__webpack_exports__);
     },
     CategorySlider: function CategorySlider() {
       return __webpack_require__.e(/*! import() */ "resources_js_pages_home_CategorySlider_vue").then(__webpack_require__.bind(__webpack_require__, /*! ./CategorySlider */ "./resources/js/pages/home/CategorySlider.vue"));
+    }
+  },
+  computed: {
+    isActive: function isActive() {
+      return false;
     }
   }
 });
@@ -124,12 +138,24 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "container" },
-    [_c("Intro"), _vm._v(" "), _c("CategorySlider"), _vm._v(" "), _c("Intro")],
-    1
-  )
+  return _c("div", { staticClass: "container" }, [
+    _c("div", { staticClass: "row" }, [
+      _c(
+        "div",
+        { staticClass: "col-md-12" },
+        [
+          _c("loading", { attrs: { active: _vm.isActive } }),
+          _vm._v(" "),
+          _c("Intro"),
+          _vm._v(" "),
+          _c("CategorySlider"),
+          _vm._v(" "),
+          _c("Intro")
+        ],
+        1
+      )
+    ])
+  ])
 }
 var staticRenderFns = []
 render._withStripped = true
